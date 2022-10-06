@@ -53,7 +53,7 @@ import { brands } from "fetchicles";
 // Using await inside an immediately invoked function
 (async () => {
 	const carBrands = await brands("car");
-	console.log(cars);
+	console.log(carBrands);
 })();
 ```
 #### return:
