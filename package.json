@@ -8,8 +8,10 @@
 	"author": "Matheus Souza",
 	"scripts": {
 		"dev": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules ./src/index.ts",
+		"sample:dev": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules ./src/sample.ts",
 		"build": "tsc --declaration",
 		"start": "node ./dist/index.js",
+		"sample": "node ./dist/sample.js",
 		"postinstall": "nvmrc-check --node $(cat .nvmrc)",
 		"lint": "tsc --noEmit && eslint . --ext .ts,.js,.json",
 		"lint-and-fix": "eslint . --ext .ts,.js,.json --fix",
