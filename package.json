@@ -1,11 +1,20 @@
 {
 	"name": "fetchicles",
-	"description": "A lib created to return all brands and models of vehicles in the world",
+	"description": "A lib created to return all brands and models of vehicles in the world.",
 	"version": "1.0.0",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"license": "MIT",
-	"author": "Matheus Souza",
+	"author": "Matheus Souza <matheusouzadearaujo@gmail.com> (https://github.com/matheusdearaujo)",
+	"contributors": [
+		"Anthony Victor <no-mail@gmail.com> (https://github.com/anthonyvictor)"
+	],
+	"keywords": [
+		"fetchicles",
+		"vehicles",
+		"brands",
+		"models"
+	],
 	"scripts": {
 		"dev": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules ./src/index.ts",
 		"sample:dev": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules ./src/sample.ts",
