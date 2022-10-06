@@ -1,5 +1,6 @@
 {
 	"name": "fetchicles",
+	"description": "A lib created to return all brands and models of vehicles in the world",
 	"version": "1.0.0",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",

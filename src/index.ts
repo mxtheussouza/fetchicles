@@ -1,11 +1,17 @@
-import axios from "axios";
+import { api } from "./services/api";
 
 export const brands = async (vehicle: string) => {
-	const url = `http://127.0.0.1:5151/api/brands/${vehicle}`;
+	const url = `/brands/${vehicle}`;
 
-	const response = await axios.get(url);
+	const response = await api.get(url);
 
 	return response.data;
 };
 
-brands("car").then(data => console.log(data));
+export const models = async (vehicle: string, brand: string) => {
+	const url = `/brands/${vehicle}/${brand}`;
+
+	const response = await api.get(url);
+
+	return response.data;
+};
