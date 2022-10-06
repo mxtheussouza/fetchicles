@@ -5,7 +5,7 @@ models({ vehicle: "car", brand: "fiat" }).then(data => console.log(data));
 
 (async () => {
 	const carBrands = await brands("car");
-	console.log(cars);
+	console.log(carBrands);
 })();
 
 (async () => {
