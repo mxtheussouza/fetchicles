@@ -1193,13 +1193,6 @@ npm-run-path@^5.1.0:
   dependencies:
     path-key "^4.0.0"
 
-nvmrc-check@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/nvmrc-check/-/nvmrc-check-1.0.2.tgz#a14192381f47196b0a36a8ffee7ae0f18112ee26"
-  integrity sha512-KkNioqcoEHEZeNLcWXL1klGiP6F+QNRTYl5ASeEFvldG/4Q9hDUsYSXpbGDw267Aq4sZ2qG1rKl+48SJxN2lRw==
-  dependencies:
-    semver "^5.3.0"
-
 object-inspect@^1.12.2:
   version "1.12.2"
   resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.12.2.tgz#c0641f26394532f28ab8d796ab954e43c009a8ea"
@@ -1448,11 +1441,6 @@ rxjs@^7.5.5:
   integrity sha512-z9MzKh/UcOqB3i20H6rtrlaE/CgjLOvheWK/9ILrbhROGTweAi1BaFsTT9FbwZi5Trr1qNRs+MXkhmR06awzQA==
   dependencies:
     tslib "^2.1.0"
-
-semver@^5.3.0:
-  version "5.7.1"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
-  integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
 
 semver@^7.3.7:
   version "7.3.8"

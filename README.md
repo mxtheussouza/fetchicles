@@ -12,7 +12,7 @@
 
 <div align="center">
     <a>
-        <img src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000">
+        <img src="https://img.shields.io/badge/version-1.0.1-blue.svg?cacheSeconds=2592000">
     </a>
     <a>
         <img src="https://img.shields.io/badge/status-active-success.svg">
@@ -28,11 +28,13 @@
 ## Installing
 
 npm
+
 ```
 npm install --save fetchicles
 ```
 
 yarn
+
 ```
 yarn add fetchicles
 ```
@@ -40,6 +42,7 @@ yarn add fetchicles
 ## Getting started
 
 ### Retrieving all vehicle brands (example: car):
+
 ```js
 import { brands } from "fetchicles";
 
@@ -56,23 +59,27 @@ import { brands } from "fetchicles";
 	console.log(carBrands);
 })();
 ```
+
 #### return:
+
 ```js
 [
-  'ford',       
-  'chevrolet',
-  'fiat',       
-  'citroen',
-  'honda',      
-  'hyundai',
-  'renault',    
-  'toyota',
-  'volkswagen'
-]
+	"ford",
+	"chevrolet",
+	"fiat",
+	"citroen",
+	"honda",
+	"hyundai",
+	"renault",
+	"toyota",
+	"volkswagen",
+];
 ```
 
 ### Retrieving all vehicle models by brands (example: car):
+
 And now, inside params it will be an object, with first parameter a vehicle name, as string, and second parameter a brand name as string.
+
 ```js
 import { models } from "fetchicles";
 
@@ -89,17 +96,11 @@ import { models } from "fetchicles";
 	console.log(carModels);
 })();
 ```
+
 #### return:
+
 ```js
-[
-  'uno',    
-  'doblo',
-  'pulse',  
-  'argo',
-  'strada', 
-  'cronos',
-  'mobi'
-]
+["uno", "doblo", "pulse", "argo", "strada", "cronos", "mobi"];
 ```
 
 This will be standard for all vehicles.
