@@ -1,6 +1,6 @@
 import { api } from "./services/api";
 
-type Vehicles = "car";
+type Vehicles = "car" | "motorcycle";
 
 type Models = {
 	vehicle: Vehicles;

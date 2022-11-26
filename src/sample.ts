@@ -1,8 +1,10 @@
 import { brands, models } from ".";
 
 // THEN METHOD
-brands("car").then(data => console.log(data));
-models({ vehicle: "car", brand: "fiat" }).then(data => console.log(data));
+brands("motorcycle").then(brands => console.log({ brands }));
+models({ vehicle: "motorcycle", brand: "honda" }).then(models =>
+	console.log({ models }),
+);
 
 // ASYNC AWAIT
 (async () => {
