@@ -1,7 +1,7 @@
 {
 	"name": "fetchicles",
 	"description": "A lib created to return all brands and models of vehicles in the world.",
-	"version": "1.0.1",
+	"version": "1.2.0",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"license": "MIT",
@@ -15,6 +15,14 @@
 		"brands",
 		"models"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/matheusdearaujo/fetchicles.git"
+	},
+	"bugs": {
+		"url": "https://github.com/matheusdearaujo/fetchicles/issues"
+	},
+	"homepage": "https://github.com/matheusdearaujo/fetchicles",
 	"scripts": {
 		"dev": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules ./src/index.ts",
 		"sample:dev": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules ./src/sample.ts",
