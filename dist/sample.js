@@ -35,9 +35,9 @@ var __awaiter =
 Object.defineProperty(exports, "__esModule", { value: true });
 const _1 = require(".");
 // THEN METHOD
-(0, _1.brands)("car").then(data => console.log(data));
-(0, _1.models)({ vehicle: "car", brand: "fiat" }).then(data =>
-	console.log(data),
+(0, _1.brands)("motorcycle").then(brands => console.log({ brands }));
+(0, _1.models)({ vehicle: "motorcycle", brand: "honda" }).then(models =>
+	console.log({ models }),
 );
 // ASYNC AWAIT
 (() =>

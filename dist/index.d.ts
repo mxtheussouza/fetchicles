@@ -1,4 +1,4 @@
-declare type Vehicles = "car";
+declare type Vehicles = "car" | "motorcycle";
 declare type Models = {
 	vehicle: Vehicles;
 	brand: string;
