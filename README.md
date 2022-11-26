@@ -73,7 +73,7 @@ import { brands } from "fetchicles";
 	"Renault",
 	"Toyota",
 	"Volkswagen",
-];
+]
 ```
 
 ### Retrieving all vehicle models by brands (example: car):
@@ -100,7 +100,15 @@ import { models } from "fetchicles";
 #### return:
 
 ```js
-["Uno", "Doblo", "Pulse", "Argo", "Strada", "Cronos", "Mobi"];
+[
+    "Uno",
+    "Doblo",
+    "Pulse",
+    "Argo",
+    "Strada",
+    "Cronos",
+    "Mobi"
+]
 ```
 
 This will be standard for all vehicles.
