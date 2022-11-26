@@ -64,15 +64,15 @@ import { brands } from "fetchicles";
 
 ```js
 [
-	"ford",
-	"chevrolet",
-	"fiat",
-	"citroen",
-	"honda",
-	"hyundai",
-	"renault",
-	"toyota",
-	"volkswagen",
+	"Ford",
+	"Chevrolet",
+	"Fiat",
+	"Citroen",
+	"Honda",
+	"Hyundai",
+	"Renault",
+	"Toyota",
+	"Volkswagen",
 ];
 ```
 
@@ -100,7 +100,7 @@ import { models } from "fetchicles";
 #### return:
 
 ```js
-["uno", "doblo", "pulse", "argo", "strada", "cronos", "mobi"];
+["Uno", "Doblo", "Pulse", "Argo", "Strada", "Cronos", "Mobi"];
 ```
 
 This will be standard for all vehicles.
