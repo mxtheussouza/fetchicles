@@ -116,6 +116,7 @@ This will be standard for all vehicles.
 **Vehicles types available:**
 
 - CAR
+- MOTORCYCLE
 -
 
 ## How to contribute
