@@ -23,7 +23,7 @@
 		"sample": "node ./dist/sample.js",
 		"lint": "tsc --noEmit && eslint . --ext .ts,.js,.json",
 		"lint-and-fix": "eslint . --ext .ts,.js,.json --fix",
-		"prettier-format": "pretty-quick --pattern '**/*.{json,js,ts,md}' --verbose",
+		"prettier-format": "pretty-quick --pattern '**/*.{json,js,ts}' --verbose",
 		"tscheck": "tsc",
 		"prepare": "husky install"
 	},
