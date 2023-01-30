@@ -1,6 +1,8 @@
 import { api } from "./services/api";
 
-type Vehicles = "car" | "motorcycle";
+type VehiclesNameToUppercase = "CAR" | "MOTORCYCLE";
+
+type Vehicles = Uppercase<VehiclesNameToUppercase>;
 
 type Models = {
 	vehicle: Vehicles;

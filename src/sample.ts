@@ -1,18 +1,18 @@
 import { brands, models } from ".";
 
 // THEN METHOD
-brands("motorcycle").then(brands => console.log({ brands }));
-models({ vehicle: "motorcycle", brand: "honda" }).then(models =>
+brands("MOTORCYCLE").then(brands => console.log({ brands }));
+models({ vehicle: "MOTORCYCLE", brand: "honda" }).then(models =>
 	console.log({ models }),
 );
 
 // ASYNC AWAIT
 (async () => {
-	const carBrands = await brands("car");
+	const carBrands = await brands("CAR");
 	console.log(carBrands);
 })();
 
 (async () => {
-	const carModels = await models({ vehicle: "car", brand: "fiat" });
+	const carModels = await models({ vehicle: "CAR", brand: "fiat" });
 	console.log(carModels);
 })();
