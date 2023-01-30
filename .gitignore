@@ -1,7 +1,6 @@
 # FOLDERS
 .idea/
 node_modules/
-dist/
 tmp/
 temp/
 
