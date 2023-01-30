@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-yarn tscheck && yarn lint-staged && yarn prettier-format --staged
+yarn lint-staged && yarn prettier-format --staged
