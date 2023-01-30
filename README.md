@@ -12,7 +12,7 @@
 
 <div align="center">
     <a>
-        <img src="https://img.shields.io/badge/version-1.2.0-blue.svg?cacheSeconds=2592000">
+        <img src="https://img.shields.io/badge/version-1.2.1-blue.svg?cacheSeconds=2592000">
     </a>
     <a>
         <img src="https://img.shields.io/badge/status-active-success.svg">
@@ -41,13 +41,13 @@ yarn add fetchicles
 
 ## Getting started
 
-### Retrieving all vehicle brands (example: car):
+### Retrieving all vehicle brands (example: CAR):
 
 ```js
 import { brands } from "fetchicles";
 
 // Using the then method
-brands("car").then(data => console.log(data));
+brands("CAR").then(data => console.log(data));
 ```
 
 ```js
@@ -55,7 +55,7 @@ import { brands } from "fetchicles";
 
 // Using await inside an immediately invoked function
 (async () => {
-	const carBrands = await brands("car");
+	const carBrands = await brands("CAR");
 	console.log(carBrands);
 })();
 ```
@@ -76,7 +76,7 @@ import { brands } from "fetchicles";
 ]
 ```
 
-### Retrieving all vehicle models by brands (example: car):
+### Retrieving all vehicle models by brands (example: CAR):
 
 And now, inside params it will be an object, with first parameter a vehicle name, as string, and second parameter a brand name as string.
 
@@ -84,7 +84,7 @@ And now, inside params it will be an object, with first parameter a vehicle name
 import { models } from "fetchicles";
 
 // Using the then method
-models({ vehicle: "car", brand: "fiat" }).then(data => console.log(data));
+models({ vehicle: "CAR", brand: "fiat" }).then(data => console.log(data));
 ```
 
 ```js
@@ -92,7 +92,7 @@ import { models } from "fetchicles";
 
 // Using await inside an immediately invoked function
 (async () => {
-	const carModels = await models({ vehicle: "car", brand: "fiat" });
+	const carModels = await models({ vehicle: "CAR", brand: "fiat" });
 	console.log(carModels);
 })();
 ```
@@ -111,7 +111,7 @@ import { models } from "fetchicles";
 ]
 ```
 
-This will be standard for all vehicles.
+This will be standard for all vehicles (vehicle names must be uppercase).
 
 **Vehicles types available:**
 
