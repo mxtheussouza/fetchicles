@@ -17,7 +17,7 @@ const brands = (vehicle) => __awaiter(void 0, void 0, void 0, function* () {
     return response.data;
 });
 exports.brands = brands;
-const models = ({ vehicle, brand }) => __awaiter(void 0, void 0, void 0, function* () {
+const models = ({ vehicle, brand, }) => __awaiter(void 0, void 0, void 0, function* () {
     const url = `/brands/${vehicle}/${brand}`;
     const response = yield api_1.api.get(url);
     return response.data;
