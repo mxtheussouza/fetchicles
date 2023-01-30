@@ -12,7 +12,7 @@
 
 <div align="center">
     <a>
-        <img src="https://img.shields.io/badge/version-1.2.1-blue.svg?cacheSeconds=2592000">
+        <img src="https://img.shields.io/badge/version-1.2.2-blue.svg?cacheSeconds=2592000">
     </a>
     <a>
         <img src="https://img.shields.io/badge/status-active-success.svg">
