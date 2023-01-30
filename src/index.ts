@@ -1,15 +1,15 @@
 import { api } from "./services/api";
 
-type VehiclesNameToUppercase = "CAR" | "MOTORCYCLE";
+export type FetchiclesVehicles = "CAR" | "MOTORCYCLE";
 
-type Vehicles = Uppercase<VehiclesNameToUppercase>;
-
-type Models = {
-	vehicle: Vehicles;
+export type FetchiclesModels = {
+	vehicle: FetchiclesVehicles;
 	brand: string;
 };
 
-export const brands = async (vehicle: Vehicles): Promise<string[]> => {
+export const brands = async (
+	vehicle: FetchiclesVehicles,
+): Promise<string[]> => {
 	const url = `/brands/${vehicle}`;
 
 	const response = await api.get(url);
@@ -17,7 +17,10 @@ export const brands = async (vehicle: Vehicles): Promise<string[]> => {
 	return response.data;
 };
 
-export const models = async ({ vehicle, brand }: Models): Promise<string[]> => {
+export const models = async ({
+	vehicle,
+	brand,
+}: FetchiclesModels): Promise<string[]> => {
 	const url = `/brands/${vehicle}/${brand}`;
 
 	const response = await api.get(url);
