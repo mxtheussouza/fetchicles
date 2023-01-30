@@ -1,7 +1,7 @@
 {
 	"name": "fetchicles",
 	"description": "A lib created to return all brands and models of vehicles in the world.",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"license": "MIT",
@@ -27,6 +27,7 @@
 		"dev": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules ./src/index.ts",
 		"sample:dev": "ts-node-dev --transpile-only --respawn --ignore-watch node_modules ./src/sample.ts",
 		"build": "tsc --declaration",
+		"build:publish": "yarn build && npm publish",
 		"start": "node ./dist/index.js",
 		"sample": "node ./dist/sample.js",
 		"lint": "tsc --noEmit && eslint . --ext .ts,.js,.json",
