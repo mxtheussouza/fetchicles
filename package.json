@@ -1,7 +1,7 @@
 {
 	"name": "fetchicles",
 	"description": "A lib created to return all brands and models of vehicles in the world.",
-	"version": "1.2.2",
+	"version": "1.2.3",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"license": "MIT",
