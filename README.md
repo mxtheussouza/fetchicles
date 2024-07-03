@@ -17,11 +17,11 @@
     <a>
         <img src="https://img.shields.io/badge/status-active-success.svg">
     </a>
-    <a href="https://github.com/matheusdearaujo/fetchicles/issues">
-        <img src="https://img.shields.io/github/issues/matheusdearaujo/fetchicles">
+    <a href="https://github.com/mxtheussouza/fetchicles/issues">
+        <img src="https://img.shields.io/github/issues/mxtheussouza/fetchicles">
     </a>
-    <a href="https://github.com/matheusdearaujo/fetchicles/pulls">
-        <img src="https://img.shields.io/github/issues-pr/matheusdearaujo/fetchicles">
+    <a href="https://github.com/mxtheussouza/fetchicles/pulls">
+        <img src="https://img.shields.io/github/issues-pr/mxtheussouza/fetchicles">
     </a>
 </div>
 
@@ -125,11 +125,11 @@ Read our [contribution](/CONTRIBUTING.md) guide.
 
 ## Contributors
 
-<a href="https://github.com/matheusdearaujo/fetchicles/graphs/contributors"><img src="https://contrib.rocks/image?repo=matheusdearaujo/fetchicles" /></a>
+<a href="https://github.com/mxtheussouza/fetchicles/graphs/contributors"><img src="https://contrib.rocks/image?repo=mxtheussouza/fetchicles" /></a>
 
 ## Author
 
-| [<img src="https://avatars.githubusercontent.com/u/61164981?v=3&s=115"><br><sub>@matheusdearaujo</sub>](https://github.com/matheusdearaujo) |
+| [<img src="https://avatars.githubusercontent.com/u/61164981?v=3&s=115"><br><sub>@mxtheussouza</sub>](https://github.com/mxtheussouza) |
 | :-----------------------------------------------------------------------------------------------------------------------------------------: |
 
 ## LICENSE
